@@ -6,13 +6,13 @@ import Dominio.TokenFactory;
 public class TesteToken {
     public static void executar(){
         //if(x==10);
-        Token t1 = TokenFactory.criarToken("if", 0);
-        Token t2 = TokenFactory.criarToken("(", 1);
-        Token t3 = TokenFactory.criarToken("x", 2);
-        Token t4 = TokenFactory.criarToken("==", 3);
-        Token t5 = TokenFactory.criarToken("10", 4);
-        Token t6 = TokenFactory.criarToken(")", 5);
-        Token t7 = TokenFactory.criarToken(";", 6);
+        Token t1 = TokenFactory.criarToken("if", 1, 0);
+        Token t2 = TokenFactory.criarToken("(", 1, 1);
+        Token t3 = TokenFactory.criarToken("x", 1, 2);
+        Token t4 = TokenFactory.criarToken("==", 1, 3);
+        Token t5 = TokenFactory.criarToken("10", 1, 4);
+        Token t6 = TokenFactory.criarToken(")", 1,5);
+        Token t7 = TokenFactory.criarToken(";", 1,6);
 
         System.out.println(t1);
         System.out.println(t2);
