@@ -129,7 +129,8 @@ public class TabelaSimboloLinguagem {
         String[] simbolos = {
             ".",
             ",",
-            ";"
+            ";",
+            ":"
         };
 
         for (String simbolo : simbolos) {
@@ -143,7 +144,8 @@ public class TabelaSimboloLinguagem {
             "/",
             "%",
             "=",
-            "<>"
+            "<>",
+            ":="
         };
 
         for (String opermat : operadoresMatematicos) {
